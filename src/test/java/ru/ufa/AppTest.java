@@ -58,14 +58,14 @@ public class AppTest {
     @ParameterizedTest
     @MethodSource("methodSource")
     public void testParamMethodSourcecalculateRingArea(int a, int b, int expectedResult) {
-        int result = calculateRingArea(a, b);
+        int result = calculateRingArea(b, a);
         Assertions.assertEquals(expectedResult, result);
     }
 
-    public Stream<Arguments> methodSource() {
+    public static Stream<Arguments> methodSource() {
         return Stream.of(
-                Arguments.of(10, 5, 335),
-                Arguments.of(7, 4, 105)
+                Arguments.of(10, 5, 235),
+                Arguments.of(7, 4, 103)
         );
     }
 }

@@ -11,9 +11,9 @@ class Main {
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Введите радиус окружности в сантиметрах:");
 //        int radius = scanner.nextInt();
-        int radius = 10;
-        int smallRadius = 5;
-        int ringArea = (int) calculateRingArea(smallRadius, radius);
+        int radius = 7;
+        int smallRadius = 4;
+        int ringArea = calculateRingArea(smallRadius, radius);
         double area = calculateCircleArea(radius);
         double length = calculateCircleLength(radius);
         System.out.println("Целая часть площади кольца: " + ringArea + " см.кв.");
