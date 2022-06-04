@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: ru.ufa.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.098 s <<< FAILURE! - in ru.ufa.AppTest
+testParamMethodSourcecalculateRingArea{int, int, double}  Time elapsed: 0.061 s  <<< ERROR!
+org.junit.platform.commons.PreconditionViolationException: Cannot invoke non-static method [public java.util.stream.Stream<org.junit.jupiter.params.provider.Arguments> ru.ufa.AppTest.methodSource()] on a null target.
+
